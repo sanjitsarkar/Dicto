@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "81259953035",
+    "firebase_url": "https://dicto-c6df9.firebaseio.com",
+    "project_id": "dicto-c6df9",
+    "storage_bucket": "dicto-c6df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81259953035:android:48ea152ba11d087de40d8e",
+        "android_client_info": {
+          "package_name": "com.example.dicto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81259953035-7t7jjv89ua0361p148mlv3n9pts3aknv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dicto",
+            "certificate_hash": "7002d8ef5d9b97f8719446ce506bd422e1fb7ff4"
+          }
+        },
+        {
+          "client_id": "81259953035-lp0hdmfjc3us9k4alb1rlineqi9oeg2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj9sVvBZTVuaCgJVjAyaEKDGx_347zN-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81259953035-lp0hdmfjc3us9k4alb1rlineqi9oeg2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

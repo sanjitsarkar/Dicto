@@ -1,0 +1,36 @@
+ FutureBuilder(
+              future: futureWord,
+             
+              builder: (context, snapshot) {
+                
+                if(snapshot.connectionState==ConnectionState.waiting)
+                {
+return Container(
+  width:10,
+  height:100,
+  child: Center(
+    child: CircularProgressIndicator(
+      
+    ),
+  ));
+                }
+                else if (snapshot.hasData) {
+                  word = new Word(
+ 
+   def:snapshot.data[0]['def'][0]['sseq'][0][0][1]['dt'][0][1],
+    type:snapshot.data[0]['fl'],
+   shortdef:snapshot.data[0]['shortdef'][0],
+   phonetics:snapshot.data[0]['hwi']['prs'][0]['mw'],
+   sound:snapshot.data[0]['hwi']['prs'][0]['sound']['audio'],
+                );
+                  return Text('${word.def}');
+                } else if (snapshot.hasError) {
+                  return Text("${snapshot.error}");
+                }
+               
+
+                // By default, show a loading spinner.
+               
+              },
+            ),
+            
